@@ -8,6 +8,8 @@ import Plane from './Plane/Plane';
 import ProductList from './ProductList/ProductList';
 import Service from './Service/Service';
 import Subscribe from './Subscribe/Subscribe';
+import OurTeam from './OurTeam/OurTeam';
+import FollowUs from './FollowUs/FollowUs';
 
 const Header = () => {
     return (
@@ -20,6 +22,8 @@ const Header = () => {
             <ProductList />
             <Subscribe />
             <AboutUs />
+            <OurTeam />
+            <FollowUs />
         </div>
     );
 };
