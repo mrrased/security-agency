@@ -25,7 +25,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "sort-by": "^1.2.0",
-    "styled-components": "^5.3.8"
+    "styled-components": "^5.3.8",
+    "tw-elements": "^1.0.0-beta1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
