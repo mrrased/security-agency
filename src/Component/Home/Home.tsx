@@ -10,6 +10,7 @@ import Service from './Service/Service';
 import Subscribe from './Subscribe/Subscribe';
 import OurTeam from './OurTeam/OurTeam';
 import FollowUs from './FollowUs/FollowUs';
+import Adress from './Address/Adress';
 
 const Header = () => {
     return (
@@ -24,6 +25,7 @@ const Header = () => {
             <AboutUs />
             <OurTeam />
             <FollowUs />
+            <Adress />
         </div>
     );
 };
