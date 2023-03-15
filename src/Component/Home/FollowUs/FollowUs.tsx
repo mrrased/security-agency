@@ -6,7 +6,7 @@ import instagram from '../../../Images/instagram.png';
 
 const FollowUs = () => {
     return (
-        <Container maxWidth="lg" className='mt-40'>
+        <Container maxWidth="lg" className='mt-20 md:mt-40'>
             <div className='lg:flex items-center justify-around'>
                 <div>
                 <h3 className='font-normal text-[#36187d] Bellota_Text text-[2.4rem] text-center lg:text-left mb-2 lg:mb-0'>Follow Us</h3>

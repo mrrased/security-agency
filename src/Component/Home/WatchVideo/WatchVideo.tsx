@@ -13,7 +13,7 @@ const WatchVideo = () => {
                     <div className='rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-7 z-0'>
                         <img src={img1} alt="" className='w-full  rounded-[40px] ' />
                     </div>
-                    <div className='absolute inset-2/4 top-full '>
+                    <div className='absolute top-14 left-36 md:left-[44%] md:top-[50%] lg:top-[70%] xl:inset-2/4 xl:top-full '>
                         <YouTubeIcon  color="primary" sx={{ fontSize: 80 }} className='p-4 z-10 bg-[#0196e3] bg-opacity-10 rounded-full hover:cursor-pointer hover:bg-opacity-20 transition duration-700 hover:duration-700' />
                     </div>
                 </div>

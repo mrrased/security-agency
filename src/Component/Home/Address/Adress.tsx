@@ -8,29 +8,29 @@ const Adress = () => {
     return (
         <Container maxWidth='lg' className='mt-40'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
-                <div className='flex p-6 md:p-10 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-7'>
+                <div className='md:flex p-6 md:p-10 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-7'>
                     <div>
                         <h3 className='font-normal text-[#36187d] Bellota_Text text-[1.7rem] text-left mb-2'>Company Office</h3>
                         <p className='font-normal text-[#6c758f] Bellota_Text text-[1.2rem] text-left mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus tortor, quis sollicitudin mauris ipsum a elit.</p>
                         <p className='font-normal text-[#6c758f] Bellota_Text text-[1.2rem] text-left mb-3'>South Carolina 3531 Camden Place 54</p>
                         <h5 className='font-normal text-[#0196e3] Bellota_Text text-[1.4rem] lg:text-[1.7rem] text-left '>+88 (017) 32 920 164</h5>
                     </div>
-                    <div>
-                        <div className='p-3 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-12 md:mb-8'><LanguageIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
-                        <div className='p-3 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-12 md:mb-8'><LocationOnOutlinedIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
+                    <div className='flex md:block justify-center space-x-4 md:space-x-0 mt-3 md:mt-0'>
+                        <div className='p-3 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer md:mb-6 lg:mb-12 xl:mb-8'><LanguageIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
+                        <div className='p-3 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer md:mb-6 lg:mb-12 xl:mb-8'><LocationOnOutlinedIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
                         <div className='p-3 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer '><LocalPhoneOutlinedIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
                     </div>
                 </div>
-                <div className='flex p-6 md:p-10 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-7'>
+                <div className='md:flex p-6 md:p-10 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-7'>
                     <div>
                         <h3 className='font-normal text-[#36187d] Bellota_Text text-[1.7rem] text-left mb-2'>Customer Service</h3>
                         <p className='font-normal text-[#6c758f] Bellota_Text text-[1.2rem] text-left mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus tortor, quis sollicitudin mauris ipsum a elit.</p>
                         <p className='font-normal text-[#6c758f] Bellota_Text text-[1.2rem] text-left mb-3'>South Carolina 3531 Camden Place 54</p>
                         <h5 className='font-normal text-[#0196e3] Bellota_Text text-[1.4rem] lg:text-[1.7rem] text-left '>+88 (017) 32 920 164</h5>
                     </div>
-                    <div>
-                        <div className='p-3  rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-12 md:mb-8'><LanguageIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
-                        <div className='p-3  rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-12 md:mb-8'><LocationOnOutlinedIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
+                    <div className='flex md:block justify-center space-x-4 md:space-x-0 mt-3 md:mt-0'>
+                        <div className='p-3  rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer md:mb-6 lg:mb-12 xl:mb-8'><LanguageIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
+                        <div className='p-3  rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer md:mb-6 lg:mb-12 xl:mb-8'><LocationOnOutlinedIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
                         <div className='p-3  rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer '><LocalPhoneOutlinedIcon sx={{ fontSize: 30 }} className='text-[#0196e3]' /></div>
                     </div>
                 </div>

@@ -21,9 +21,12 @@ module.exports = {
       },
       backgroundPosition:{
         background_Position: 'center center'
+      },
+      backfaceVisibility:{
+        backface_visibility: 'hidden'
       }
     },
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin")],
   
 }

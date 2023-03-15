@@ -13,23 +13,23 @@ const Service = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-center gap-8 px-3'>
                     <div className='flex items-center justify-around p-6 md:p-12 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-7'>
-                        <p className='font-normal text-[#0196e3] Bellota_Text text-[1.7rem] text-left'>01</p>
-                        <h2 className='font-normal text-[#ea2396] Bellota_Text text-[1.7rem] text-left'>Home Security</h2>
+                        <p className='font-normal text-[#0196e3] Bellota_Text text-[1.3rem] lg:text-[1.7rem] text-left'>01</p>
+                        <h2 className='font-normal text-[#ea2396] Bellota_Text text-[1.3rem] lg:text-[1.7rem] text-left'>Home Security</h2>
                         <KeyboardArrowRightOutlinedIcon color="primary" sx={{ fontSize: 40 }}/>
                     </div>
                     <div className='flex items-center justify-around p-6 md:p-12 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-7'>
-                        <p className='font-normal text-[#0196e3] Bellota_Text text-[1.7rem] text-left'>02</p>
-                        <h2 className='font-normal text-[#ea2396] Bellota_Text text-[1.7rem] text-left'>Office Security</h2>
+                        <p className='font-normal text-[#0196e3] Bellota_Text text-[1.3rem] lg:text-[1.7rem] text-left'>02</p>
+                        <h2 className='font-normal text-[#ea2396] Bellota_Text text-[1.3rem] lg:text-[1.7rem] text-left'>Office Security</h2>
                         <KeyboardArrowRightOutlinedIcon color="primary" sx={{ fontSize: 40 }}/>
                     </div>
                     <div className='flex items-center justify-around p-6 md:p-12 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-12'>
-                        <p className='font-normal text-[#0196e3] Bellota_Text text-[1.7rem] text-left'>03</p>
-                        <h2 className='font-normal text-[#ea2396] Bellota_Text text-[1.7rem] text-left'>Cyber Security</h2>
+                        <p className='font-normal text-[#0196e3] Bellota_Text text-[1.3rem] lg:text-[1.7rem] text-left'>03</p>
+                        <h2 className='font-normal text-[#ea2396] Bellota_Text text-[1.3rem] lg:text-[1.7rem] text-left'>Cyber Security</h2>
                         <KeyboardArrowRightOutlinedIcon color="primary" sx={{ fontSize: 40 }}/>
                     </div>
                     <div className='flex items-center justify-around p-6 md:p-12 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer mb-12'>
-                        <p className='font-normal text-[#0196e3] Bellota_Text text-[1.7rem] text-left'>04</p>
-                        <h2 className='font-normal text-[#ea2396] Bellota_Text text-[1.7rem] text-left'>CCTV Cameras</h2>
+                        <p className='font-normal text-[#0196e3] Bellota_Text text-[1.3rem] lg:text-[1.7rem] text-left'>04</p>
+                        <h2 className='font-normal text-[#ea2396] Bellota_Text text-[1.3rem] lg:text-[1.7rem] text-left'>CCTV Cameras</h2>
                         <KeyboardArrowRightOutlinedIcon color="primary" sx={{ fontSize: 40 }}/>
                     </div>
                     <div className='p-6 md:p-6 rounded-[40px] shadow-boxShadow transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer'>
