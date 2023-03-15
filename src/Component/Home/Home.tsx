@@ -11,6 +11,10 @@ import Subscribe from './Subscribe/Subscribe';
 import OurTeam from './OurTeam/OurTeam';
 import FollowUs from './FollowUs/FollowUs';
 import Adress from './Address/Adress';
+import Footer from './Footer/Footer';
+import HeaderBottom from './HeaderBottom/HeaderBottom';
+import WatchVideo from './WatchVideo/WatchVideo';
+import UsersSay from './UsersSay/UsersSay';
 
 const Header = () => {
     return (
@@ -21,11 +25,15 @@ const Header = () => {
             <AboutCC />
             <Service />
             <ProductList />
+            <WatchVideo />
             <Subscribe />
             <AboutUs />
             <OurTeam />
+            <UsersSay />
             <FollowUs />
             <Adress />
+            <HeaderBottom />
+            <Footer />
         </div>
     );
 };
