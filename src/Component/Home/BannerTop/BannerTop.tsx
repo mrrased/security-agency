@@ -2,7 +2,7 @@ import React from 'react';
 
 const BannerTop = () => {
     return (
-        <div className="bg-bacgroundImage w-full bg-no-repeat background_Position bg-cover bg-[#0196e3] bg-blend-soft-light">
+        <div className="bg-bacgroundImage w-full bg-no-repeat background_Position bg-cover bg-[#0196e3] bg-blend-soft-light mt-[150px]">
             <div className='grid grid-cols-12 py-[100px] md:py-[240px] lg:px-20  '>
                 <div className='lg:col-span-2'></div>
                 <div className='col-span-12 lg:col-span-8 text-center p-6'>
