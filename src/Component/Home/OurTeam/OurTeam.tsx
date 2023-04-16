@@ -7,7 +7,7 @@ import img3 from '../../../Images/team3.jpg';
 const OurTeam = () => {
     return (
         <Container maxWidth="lg">
-            <h2 className='font-normal text-[#36187d] Bellota_Text text-[2.4rem] text-left mb-10'>Our Team</h2>
+            <h2 className='font-normal text-[#36187d] Bellota_Text text-[1.8rem] md:text-[2.4rem] text-center md:text-left mb-10'>Our Team</h2>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-7'>
                 <div className='flex justify-center p-6 md:p-5 shadow-boxShadow rounded-[40px] transition duration-700 hover:bg-white hover:duration-700 hover:cursor-pointer md:py-16'>
                     <div>

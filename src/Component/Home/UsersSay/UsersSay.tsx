@@ -8,7 +8,7 @@ import 'tw-elements';
 const UsersSay = () => {
     return (
         <Container maxWidth='lg' className='mt-40'>
-            <h1 className='font-normal text-[#36187d] Bellota_Text text-[2.8rem] text-center mb-10'>What Our Users Say</h1>
+            <h1 className='font-normal text-[#36187d] Bellota_Text text-[1.8rem] md:text-[2.8rem] text-center mb-10'>What Our Users Say</h1>
             <div
                 id="carouselExampleCaptions"
                 className="relative"

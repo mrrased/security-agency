@@ -26,7 +26,7 @@ module.exports = {
         backface_visibility: 'hidden'
       },
       transition:{
-        transition_custom: 'height 0.4s'
+        transition_custom: '0.3s'
       }
     },
   },
